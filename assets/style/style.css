@@ -7,19 +7,32 @@
 
 body{
   font-family: 'Times New Roman', Times, serif;
-  background-color: lightgrey;
+  background-color: #f6f8f9;
 }
 
+.cross{
+  color: red;
+}
+
+.circle{
+  border: 1px solid red;
+  border-radius: 100%;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
 
 /* header */
 
-.logo h1{
+.logo{
   display: inline-block;
-  font-size: 4rem;
-  margin-top: 20px;
 }
 
 header{
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
   height: 150px;
   background-color: white;
 }
@@ -30,15 +43,27 @@ header img{
   height:100px;
   margin: 20px 30px;
 }
+/* /header */
+
 
 /* main */
 .container{
   max-width: 1200px;
   margin: 0 auto;
   background-color: white;
-  padding: 20px;
+  padding: 30px;
   margin-top: 50px;
   border-radius: 5px 5px 0px 0px;
+}
+
+.container-2{
+  max-width: 1200px;
+  height: 650px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 40px;
+  margin-top: 5px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 p{
@@ -62,20 +87,11 @@ p{
   color: lightgray;
 }
 
-.container-2{
-  max-width: 1200px;
-  height: 500px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 40px;
-  margin-top: 10px;
-  border-radius: 0px 0px 5px 5px;
-}
 
 .lista{
   font-size: 26px;
   margin-left: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 li{
@@ -97,6 +113,7 @@ nav ul{
   margin: 10px;
   margin-left: 35px;
   font-size: 20px;
+  padding: 5px;
 }
 
 .cerchio{
@@ -105,8 +122,8 @@ nav ul{
 }
 
 .recruiting{
-  padding: 5px 10px;
   background-color: #9c72e4;
+  padding: 5px 10px;
   border-radius: 10px;
   color: white;
 }
@@ -118,11 +135,16 @@ nav ul{
   color: white;
 }
 
-.cross{
-  color: red;
+.website{
+  background-color: #d863a1;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
 }
 
-.circle{
-  border: 1px solid red;
-  border-radius: 100%;
+.sales{
+  background-color: #b0c926;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
 }
