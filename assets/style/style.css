@@ -27,7 +27,7 @@ header{
 header img{
   vertical-align: middle;
   width: 100px;
-  height: 100px;
+  height:100px;
   margin: 20px 30px;
 }
 
@@ -47,18 +47,19 @@ p{
 
 .task{
   background-color: #47adf1;
-  margin-left: 50px;
   padding: 10px;
   border-radius: 5px;
+  margin-left: 50px;
   color: white;
 }
 
-.section {
-  margin-left: 5px;
-  padding: 10px;
+.section{
+  background-color: white;
   border-radius: 5px;
-  color: lightgray;
   border: 1px solid lightgray;
+  padding: 10px;
+  margin-left: 3px;
+  color: lightgray;
 }
 
 .container-2{
@@ -66,20 +67,62 @@ p{
   height: 500px;
   margin: 0 auto;
   background-color: white;
-  margin-top: 3px;
+  padding: 40px;
+  margin-top: 10px;
   border-radius: 0px 0px 5px 5px;
-  padding: 30px;
-}
-
-
-nav li{
-  list-style-type: none;
-}
-
-nav span{
-  font-size: 32px;
 }
 
 .lista{
-  margin-left: 40px;
+  font-size: 26px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+li{
+  list-style: none;
+}
+
+.check{
+  color: green;
+}
+
+.editorial{
+  padding: 5px 10px;
+  background-color: #47adf1;
+  border-radius: 10px;
+  color: white;
+}
+
+nav ul{
+  margin: 10px;
+  margin-left: 35px;
+  font-size: 20px;
+}
+
+.cerchio{
+  border: 1px solid green;
+  border-radius: 100%;
+}
+
+.recruiting{
+  padding: 5px 10px;
+  background-color: #9c72e4;
+  border-radius: 10px;
+  color: white;
+}
+
+.mobile{
+  padding: 5px 10px;
+  background-color: #f29e33;
+  border-radius: 10px;
+  color: white;
+}
+
+.cross{
+  color: red;
+}
+
+.circle{
+  border: 1px solid red;
+  border-radius: 100%;
 }
