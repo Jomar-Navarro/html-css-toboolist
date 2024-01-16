@@ -10,12 +10,21 @@ body{
   background-color: #f6f8f9;
 }
 
+.check{
+  color: green;
+}
+
 .cross{
   color: red;
 }
 
 .circle{
   border: 1px solid red;
+  border-radius: 100%;
+}
+
+.cerchio{
+  border: 1px solid green;
   border-radius: 100%;
 }
 
@@ -47,6 +56,8 @@ header img{
 
 
 /* main */
+
+/* container */
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -98,27 +109,22 @@ li{
   list-style: none;
 }
 
-.check{
-  color: green;
-}
-
-.editorial{
-  padding: 5px 10px;
-  background-color: #47adf1;
-  border-radius: 10px;
-  color: white;
-}
-
 nav ul{
   margin: 10px;
   margin-left: 35px;
   font-size: 20px;
   padding: 5px;
 }
+/* /container */
 
-.cerchio{
-  border: 1px solid green;
-  border-radius: 100%;
+
+/* Hashtags */
+.editorial{
+  padding: 5px 10px;
+  background-color: #47adf1;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
 }
 
 .recruiting{
@@ -126,6 +132,7 @@ nav ul{
   padding: 5px 10px;
   border-radius: 10px;
   color: white;
+  font-size: 15px;
 }
 
 .mobile{
@@ -133,13 +140,16 @@ nav ul{
   background-color: #f29e33;
   border-radius: 10px;
   color: white;
+  font-size: 15px;
 }
+
 
 .website{
   background-color: #d863a1;
   padding: 5px 10px;
   border-radius: 10px;
   color: white;
+  font-size: 15px;
 }
 
 .sales{
@@ -147,4 +157,10 @@ nav ul{
   padding: 5px 10px;
   border-radius: 10px;
   color: white;
+  font-size: 15px;
 }
+
+/* /Hashtags */
+/* main */
+
+
