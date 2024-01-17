@@ -38,11 +38,7 @@ body{
   text-align: center;
 }
 
-
-
-
 /* header */
-
 .logo{
   display: inline-block;
 }
@@ -65,7 +61,6 @@ header img{
 
 
 /* main */
-
 /* container */
 .container{
   max-width: 1200px;
@@ -118,7 +113,7 @@ li{
   list-style: none;
 }
 
-nav ul{
+ul{
   margin: 10px;
   margin-left: 35px;
   font-size: 20px;
